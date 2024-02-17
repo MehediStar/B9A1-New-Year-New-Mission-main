@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top Banner container */
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Banner image */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Banner text overlay */
+.banner p {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    z-index: 1;
+    /* Ensure the text is above the image */
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    /* Ensure the text is above the image */
+}
+.banner p {
+ 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    
+}
+
+
+/* 2nd Banner start*/
+
+.offtext {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.deals {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.allCatg {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.newYrImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.newYrImg img {
+    width: 700px;
+    height: 700px;
+}
+
+/* 3nd Banner start*/
+
+
+.party-bnr {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.party-bnr img {
+    width: 100%;
+    height: auto;
+}
+
+.party-bnr h1 {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    font-size: 90px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.party-bnr p {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.party-bnr button {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-weight: bold;
+}
+
+.event {
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+    height: 300px;
+    background-image: linear-gradient(45deg, #d8aca8, #968b82fb);
+}
+
+/* Banner text overlay */
+.event {
+    padding-left: 40%;
+    padding-top: 2%;
+    margin: 35px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.event h1 {
+    color: rgb(22, 19, 19);
+}
+
+.event span {
+    color: #e70d0db0;
+}
+
+.event button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e43131;
+    font-size: 16px;
+    font-weight: medium;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.moment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.saleImg {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    color: white;
+}
+
+.saleImg img {
+    width: 500%;
+    height: 500%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.first-sec .p1 {
+    color: #FF0000;
+    font-weight: medium;
+    font-size: 24px;
+}
+
+.first-sec h1 {
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.first-sec .p2 {
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.img1 {
+    width: 20%;
+    height: 20%;
+    border: 5px;
+    border-color: #FF0000;
+    border-radius: 100px;
+}
+
+.second-sec h2 {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.func {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.func h5 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+.func h1 {
+    color: #FF0000;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.func p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/* last-div-end */
+
+
+
+.manypara h1 {
+    color: #070211;
+    font-size: 50px;
+    font-weight: medium;
+}
+
+.manypara h5 {
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.manypara {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+
+.many {
+   
+    margin: 2%;
+    padding: 2%;
+
+}
+
+.many1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.many2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
+
+
+.social-icon{
+    text-align: center;
+    margin: 25px 0px 45px 0px;
+}
+
+.icon-btn{
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    margin: 10px 30px;
+    background: transparent;
+    
+    
+}
+
+.last{
+    margin-left: 15%;
+    max-width: 60%;
+    padding: 5%;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+  }
+  /*****/
+  .last-sec{
+    text-align: center;
+  }
+
+  .btn{
+    padding: 20px 35px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(216, 19, 19);
+    background: linear-gradient(90deg, rgba(231, 8, 8, 0.725) 30%, rgb(230, 9, 9) 100%);
+    color: rgb(248, 248, 248);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.footer{
+    margin-left: 15%;
+    max-width: 60%;
+    padding: 5%;
+    border-radius: 16px;
+    background: black;
+}
+
+
+
+.endtext1 {
+    display: 50%;
+
+}
+
+.footer-text1
+{
+    text-align: left;
+ color: white;
+}
+.footer-text2 
+{
+    text-align: right;
+    color: white;
+}
+.footer-text3
+{
+    text-align: left;
+    color: white;
+}
+.footer-text4
+{
+    text-align: right;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* .footer{
+    height: 250px;
+    max-width: 100%;
+    background: black;
+    margin-top: 120px;
+    padding: 20px 0;
+}
+
+
+.footer h1{
+    color: #5b5b5b;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.footer .footer-heading{
+    margin-top: 60px !important;
+}
+
+.food-color{
+    color: #fa9249;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+} */
+
